@@ -17,7 +17,7 @@ importScripts(
   "/precache-manifest.35d697694b51bb6d789f5070ebeef186.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "mobile-app"});
+workbox.core.setCacheNameDetails({prefix: "GreenCars"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
